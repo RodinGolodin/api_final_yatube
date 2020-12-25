@@ -1,5 +1,5 @@
 ## Introduction
-The Yatube API is created to enable interaction with the Yatube social network at the user level through the API.
+The Yatube API allows you to interact with the Yatube social network at the user level through the API.
 
 ## Features
 1. Getting a complete list of all posts on Yatube
