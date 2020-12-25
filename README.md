@@ -47,4 +47,4 @@ Sample response:
         "post": 3
     }`
 
-[Full API specificatioh (redoc.yaml)](https://github.com/cebanauskes/api_final_yatube/blob/master/static/redoc.yaml)
+[See the complete API specification (redoc.yaml)](https://github.com/cebanauskes/api_final_yatube/blob/master/static/redoc.yaml)
