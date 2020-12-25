@@ -11,13 +11,14 @@ The Yatube API is created to enable interaction with the Yatube social network a
 
 ## How to use
 1. Fork and clone the repository
-2. Set up a virtual environment and install dependencies from requirements.txt
+2. Set up a virtual environment
+3. Install the dependencies: `pip install -r requirements.txt`
 
 ## Authorization
-To get access to the API, create a new user in Yatube and make a POST request to /api/v1/token/ with the **username** and **password**, after which you will receive a token. When using the API, pass the token in the header as **Authorization: Bearer <token>**.
+To get access to the API, create a new user in Yatube and make a POST request to `/api/v1/token/` with the **username** and **password**, after which you will receive a token. When using the API, pass the token in the header as **Authorization: Bearer <token>**.
 
 ## Responses
-Sample POST request to /api/v1/posts:
+Sample POST request to `/api/v1/posts`:
     `{
         "text":"Chandler and I are getting married!",
     }`
@@ -31,7 +32,7 @@ Sample response:
         "group": null
     }`
     
-Sample POST request to add a comment to the post above (id=3):
+Sample POST request to `api/v1/posts/{post_id}/comments/` to add a comment to the post above (id=3):
     `{
         "post": 3,
         "text": "My best friend and my sister?!",
