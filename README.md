@@ -19,32 +19,40 @@ To get access to the API, create a new user in Yatube and make a POST request to
 
 ## Responses
 Sample POST request to `/api/v1/posts`:
-    `{
+    ```
+    {
         "text":"Chandler and I are getting married!",
-    }`
+    }
+    ```
     
 Sample response:
-    `{
+    ```
+    {
         "id": 3,
         "author": "monicageller",
         "text": "Chandler and I are getting married!",
         "pub_date": "2020-12-25T10:40:32.710136Z",
         "group": null
-    }`
+    }
+    ```
     
 Sample POST request to `api/v1/posts/{post_id}/comments/` to add a comment to the post above (id=3):
-    `{
+    ```
+    {
         "post": 3,
         "text": "My best friend and my sister?!",
-    }`
+    }
+    ```
 
 Sample response:
-    `{
+    ```
+    {
         "id": 1,
         "author": "rossgeller",
         "text": "My best friend and my sister?!",
         "created": "2020-12-25T10:49:56.272056Z",
         "post": 3
-    }`
+    }
+    ```
 
 [See the complete API specification (redoc.yaml)](https://github.com/cebanauskes/api_final_yatube/blob/master/static/redoc.yaml)
