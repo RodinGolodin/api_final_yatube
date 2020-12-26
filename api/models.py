@@ -6,8 +6,6 @@ User = get_user_model()
 
 class Group(models.Model):
     title = models.CharField(max_length=200)
-    slug = models.SlugField(blank=True)
-    description = models.TextField()
 
     def __str__(self):
         return self.title
@@ -58,4 +56,7 @@ class Follow(models.Model):
         related_name='following')
 
     class Meta:
-        unique_together = ('user', 'following')
+        constraints = [
+            models.UniqueConstraint(fields=['user', 'following'],
+                                    name='unique_follow'),
+        ]
