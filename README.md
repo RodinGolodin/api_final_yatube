@@ -1,6 +1,6 @@
 # Yatube API
 
-The Yatube API allows you to interact with the Yatube social network at the user level through the API.
+The Yatube API allows you to interact with the Yatube social network as a user through the API.
 
 ## Features
 
