@@ -21,7 +21,7 @@ The Yatube API allows you to interact with the Yatube social network as a user t
 
 ### Authorization
 
-To get access to the API, create a new user in Yatube and make a POST request to `/api/v1/token/` with the **username** and **password**, after which you will receive a token. When using the API, pass the token in the header as **Authorization: Bearer <token>**.
+To get access to the API, create a new user in Yatube and make a POST request to `/api/v1/token/` with the **username** and **password**, after which you will receive a token. When using the API, pass the token in the header as **Authorization: Bearer [token]**.
 
 ### Example requests and responses
 
