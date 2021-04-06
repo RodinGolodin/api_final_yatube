@@ -45,7 +45,7 @@ Sample response:
 }
 ```
 
-Sample POST request to `api/v1/posts/{post_id}/comments/` to add a comment to a post.
+Sample POST request to `api/v1/posts/{post_id}/comments/` to add a comment to a post:
 
 ```
 {
