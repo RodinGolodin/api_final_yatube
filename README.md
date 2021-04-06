@@ -45,7 +45,7 @@ Sample response:
 }
 ```
 
-Sample POST request to `api/v1/posts/{post_id}/comments/` to add a comment to the post above (id=3):
+Sample POST request to `api/v1/posts/{post_id}/comments/` to add a comment to a post.
 
 ```
 {
@@ -66,7 +66,7 @@ Sample response:
 }
 ```
 
-See [the complete API specification (redoc.yaml)](https://github.com/yandex-praktikum/api_final_yatube/blob/master/static/redoc.yaml).
+See [the complete API specification (redoc.yaml)](https://github.com/RodinGolodin/api_final_yatube/blob/master/static/redoc.yaml).
 
 ## Contributing
 
